@@ -2,7 +2,7 @@
 
 Your first C program to demonstrate usage of Ville and VSCode in action
 SystemSW
-Jarno Tuominen, TUAS
+Jarno Tuominen, TUAS 2024
 
 *******************************************************************************/
 #include <stdio.h>
