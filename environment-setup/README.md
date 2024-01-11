@@ -26,6 +26,8 @@ Log into TUAS gilab https://git.dc.turkuamk.fi/ and in main menu, switch to Grou
 
 ### Step 3: Customize VM
 
+** Note: If you already have a working git account (in dc.turkuamk.fi), you don't have to do this again **
+
 The installed VM is naturally the same for all students, but will want to use your own identity to sync with TUAS gitlab repository. 
 - Configure git identity
 ```bash
@@ -44,7 +46,7 @@ The installed VM is naturally the same for all students, but will want to use yo
 
 ### Step 4: Clone your remote repository to your VM
 
-** Note: If you already have a working git account (in dc.turkuamk.fi), you don't have to do this again **
+
 
 ```bash
    student@student-VirtualBox:~$ git clone git@git.dc.turkuamk.fi:YOUR-NAMESPACE/systemsw_lab_exercises.git
