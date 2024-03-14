@@ -10,13 +10,13 @@ https://en.wikipedia.org/wiki/Moving_average
 
 As you can see, in the MA-filter, you are multiplying each data point with the same **coefficient**, 1/k, where k is the length of the filter.
 
-![[Pasted image 20240314095953.png]]
+![MA](images/MA.png)
 
 For example, if you want to calculate the average of 5 data points, you divide each data point (1-5) value by 5 (=  multiply by 1/5) and then sum them all together. Moving average means that on a next round you will compute the same for data points 2-6 and so on. As a result, you will get a "smoothed" version of the original signal, meaning that sharp changes (=high frequency components) are filtered out and instead a signal with slow changes (low frequencies components) are passed. Thus, the term **low-pass filter (LPF)**.
 
 The structure of such a compute engine (filter) can be depicted like below:
 
-![[Pasted image 20240314100636.png]]
+![FIR](images/FIR.png)
 *A direct form discrete-time **FIR filter** of order _N_. The top part is an _N_-stage delay line with _N_ + 1 taps. Each unit delay is a _z_−1 operator in [Z-transform](https://en.wikipedia.org/wiki/Z-transform "Z-transform") notation.*
 
 Source: https://en.wikipedia.org/wiki/Finite_impulse_response
@@ -25,7 +25,7 @@ If the coefficient b is same (1/N) for all "taps", we have a moving average filt
 
 [TFilter - Free online FIR filter design (engineerjs.com)](http://t-filter.engineerjs.com/)
 
-![[Pasted image 20240314102752.png]]
+![Tfilter](images/Tfilter.png)
 
 Note that you can have the coefficients nicely as an array, just save those in a suitable header file (like coeffs-h) and use them in your filter. You can also find a ready made C-implementation of the filter under "Source Code"-tab. Use it if you want, but make sure that you understand what is happening there. If that seems to be too complex, design the filter yourself, you will learn much more.
 
@@ -60,7 +60,7 @@ Input data type:
 		- Temperature of Turku during this year, with one hour resolution
 		- Even an audio file (in raw wave-format!), adjust the filter lenght/ sample lenght then accordingly and provide means to playback the sound before and after filtering. MATLAB can do that easily.
 	- TIP: You can use artificial data.... 
-	- ![[Pasted image 20240314103904.png]]
+	- ![GPT](images/GPT.png)
 	
 Where to get the data to the filter? 
 - From the file. 
