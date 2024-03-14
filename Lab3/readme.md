@@ -56,24 +56,27 @@ Input data lenght:
 
 Input data type: 
 	- You can decide your self! It can be for example:
-		- stock value of NOK1V
-		- Temperature of Turku during this year, with one hour resolution
-		- Even an audio file (in raw wave-format!), adjust the filter lenght/ sample lenght then accordingly and provide means to playback the sound before and after filtering. MATLAB can do that easily.
+	- stock value of NOK1V
+	- Temperature of Turku during this year, with one hour resolution
+	- Even an audio file (in raw wave-format!), adjust the filter lenght/ sample lenght then accordingly and provide means to playback the sound before and after filtering. MATLAB can do that easily.
 	- TIP: You can use artificial data.... 
-	- ![GPT](images/GPT.png)
+	 ![GPT](images/GPT.png)
 	
-Where to get the data to the filter? 
-- From the file. 
-		Step 1: you can use fixed file name in your source code (like my_data.csv)
-		Step 2: user is asked to enter it (scanf function to read user input)
-		Step 3: take it from command line arguments (see argc, argv, parsing command line parameters)
-	When using file operations, have a look at POSIX file library (for C)
+From where to get the data to the filter? 
+- From the file, which contains the data you have created/captured earlier.
+
+- Step 1: you can use fixed file name in your source code (like my_data.csv)
+- Step 2: user is asked to enter it (scanf function to read user input)
+- Step 3: take it from command line arguments (see argc, argv, parsing command line parameters)
+
+- When using file operations, have a look at POSIX file library (for C)
 	
 Where to save the data?
 - To the file
-		Step 1: you can use fixed file name
-		Step 2: user is asked to enter it (scanf function)
-		Step 3: take it from command line arguments (see argc, argv)
+
+- Step 1: you can use fixed file name
+- Step 2: user is asked to enter it (scanf function)
+- Step 3: take it from command line arguments (see argc, argv)
 
 **Tip:** start with step 1 and move on until the "whole" program works, then start to work on more features. Hopefully you were reading the first tip.
 
