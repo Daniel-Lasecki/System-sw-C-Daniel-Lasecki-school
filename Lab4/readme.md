@@ -23,12 +23,20 @@ Phase 1:
 - The program has a function that prints the color of the light to the screen.
 
 Phase 2:
-	- Add new states: RED+YELLOW, BLINKING YELLOW and OFF
-	- Add Pedestrian light control
-    - Add Button to request a green light
-    - Error handling
+- Add new states: RED+YELLOW, BLINKING YELLOW and OFF
+- Add Pedestrian light control
+- Add Button to request a green light
 
-You can decide yourself how the logic of the traffic lights works, but in general, according to Finnish law.
+You can decide yourself how the logic of the traffic lights works, but in general, according to Finnish law. The button can be a suitable command, which is read from  stdin. 
+
+**State machines**
+
+For a more info about the finite state machines (FSM), have a look at:
+
+[State machine design in C](
+https://www.codeproject.com/Articles/1275479/State-Machine-Design-in-C)
+
+[Traffic light FSM](https://tahull.github.io/projects/pic/traffic-light-fsm)
 
 ### Implementation
 
