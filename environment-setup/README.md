@@ -22,7 +22,7 @@ Check that you can start the VM, log in and have Ubuntu desktop running with int
 
 Log into TUAS gilab https://git.dc.turkuamk.fi/ and in main menu, switch to Groups / `TUAS SystemSW`. (If `TUAS SystemSW` is not shown, ask instructor to add you to that group). In that group there is repository `Systemsw Lab Exercises`. Create a private <b>fork</b> to your personal namespace. A fork is a copy of a project. Forking a repository allows you to make changes without affecting the original project. This forked project works as your return repository.  
 - add user `jarno.tuominen` to the project with "Developer" role.
-- add tag 'SystemSW-2024K' to your repository: In gitlab Settings->General, "Topics"
+- add tag 'SystemSW-2024Fall' to your repository: In gitlab Settings->General, "Topics"
 
 ### Step 3: Customize VM
 
