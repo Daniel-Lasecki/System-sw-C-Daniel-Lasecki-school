@@ -43,6 +43,12 @@ Next, create a program, which has a command interpreter, which understands the f
 Implement the command using an infinite while-loop and switch-case structure
 Use scanf()-function to grab the command and based on the command make a function call to respective function handling the command.
 
+In order to use scanf(), you need to reserve memory for the string you are inputting - this happens via malloc()-function. Have a look at this:
+
+https://stackoverflow.com/questions/3295884/malloc-and-scanf
+
+
+
 2.2
 
 Create an array "Library", which contains N books.
