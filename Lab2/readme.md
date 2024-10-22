@@ -1,8 +1,46 @@
 Lab 2
 
-- Create a new project in VSCode, which has includes ALL of the 4 source (.c) files under Lab2/
-- You will do this in project makefile (TBD, stay tuned)
-- This will create a problem: Your project has several source files, which have main()-function - and will therefore produce an error.
+  In this lab, we will
+  - learn how to use CMake to control the build process of your project.
+  - learn how to use preprocessor directives (#if) to leave ouy parts of your code
+  - create a library manager application, which has multiple functions and uses struct data types
+  - add file operations to your project (you will learn how to use POSIX API for file operations)
+  
+  2.0
+   
+- Lab2/ - directory contains four example source files (.c), which all have main()-function. That is a problem you need to solve somehow. If you build only one file at a time, that is not an issue, but if try to compile those all into your project, you will get a compile error. 
+
+First, let's take Cmake into use.
+
+1. Go to terminal and install cmake and some related tools:
+
+`sudo apt install cmake`
+
+`apt install ninja-build`
+
+2. Next, in VSCode, install Cmake Tools by going to extensions on the lef side (**Ctrl-Shift-X**)
+
+3. Surf in the project directory (in this case Lab2) and press **Ctrl-Shift-P** and select **Cmake Quick Start**
+
+- Give your project some name, select C as the project language. This information will be written to CmakeLists.txt and a few initial source files.
+- Select **CTest** as an additional option
+- Select **Executable** as the project type 
+
+This successfully creates the CMakeLists.txt file, which tells the CMake tools how to build your project.
+
+4. Continue with the CMake quick start to create a CMakePreset.json-file. 
+
+Select **Add a New Preset** and **Create from Compilers**.
+
+The extension automatically scans for kits on your computer and creates a list of compilers found on your system.
+
+Select the compiler you want to use. In our case it will be gcc*something*.    
+
+You can now try to build and run your project. By default, it is compiling main.c (see CMakeLists.txt)
+
+-------- TO BE CONTINUED ---------------
+
+
 
 - To overcome this: Wrap the unnecessary source code lines (i.e. the whole main-function) with preprocess #if . like this:
 
