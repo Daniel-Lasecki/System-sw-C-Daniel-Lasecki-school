@@ -13,9 +13,9 @@ In Lab exercise 1 you will sign up to Ville-course and perform simple tasks:
 
 >This message contains the registration link and the course key which allow you to register on the ViLLE-course. Please note that the registration link should only be used to register on the course. All further log-ins should be done from https://ville.utu.fi.
 
->Registration link 'System Software - TUAS': https://ville.utu.fi?c=o73infgG6Mju
+>Registration link 'System Software - TUAS': https://ville.utu.fi?c=hPvyxv8fXhuU
 
->Course key: sysSW2024Fall`
+>Course key: SysswFall2025`
 
 #### Complete Exercise 1 in Ville (Getting started, 3 parts)
 
