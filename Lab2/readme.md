@@ -2,7 +2,7 @@ Lab 2
 
   In this lab, we will
   - learn how to use CMake to control the build process of your project.
-  - learn how to use preprocessor directives (#if) to leave ouy parts of your code
+  - learn how to use preprocessor directives (#if) to leave out parts of your code
   - create a library manager application, which has multiple functions and uses struct data types
   - add file operations to your project (you will learn how to use POSIX API for file operations)
   
@@ -18,7 +18,7 @@ First, let's take Cmake into use.
 
 `apt install ninja-build`
 
-2. Next, in VSCode, install Cmake Tools by going to extensions on the lef side (**Ctrl-Shift-X**)
+2. Next, in VSCode, install Cmake Tools by going to extensions on the left side (**Ctrl-Shift-X**)
 
 3. Surf in the project directory (in this case Lab2) and press **Ctrl-Shift-P** and select **Cmake Quick Start**
 
