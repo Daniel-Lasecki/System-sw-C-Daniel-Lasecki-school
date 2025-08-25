@@ -7,7 +7,7 @@ The course extends over one semester with work distributed over 14 weeks.
 | Weeks | content |
 |---|---|
 | 1-2 | Getting the working [environment set up](environment-setup/README.md), getting familiar with vscode, git and gitlab 
-| 3-10 | For the basic C concepts we have a set of lectures and related exercises in Ville environment. In addition to Ville exercises, there is a set of exdrcises to be executed in VSCode enviroment. Each exercise has a prenamed folder in this repo, where you should submit your work using development cycle <br> 1. edit and debug in vscode <br> 2. commit to local repo<br>3. push to your gitlab repo
+| 3-10 | For the basic C concepts we have a set of lectures and related exercises in Ville environment. In addition to Ville exercises, there is a set of exercises to be executed in VSCode enviroment. Each exercise has a prenamed folder in this repo, where you should submit your work using development cycle <br> 1. edit and debug in vscode <br> 2. commit to local repo<br>3. push to your gitlab repo
 | 11-14 | To be defined |
 
 ## Course work methods
