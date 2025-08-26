@@ -8,6 +8,9 @@ In Lab exercise 1 you will sign up to Ville-course and perform simple tasks:
 - Commit your code to GIT repository
 - Compile, run and submit C code in Ville environment
 
+If you are taking the object oriented programming (OOP) course, you can skip Parts 2-3 of this lab until you have set up your environment 
+(virtual machine, VSCode, Git) on OOP course. Do the parts 2-3 when your environment is working. In the meanwhile, you can proceed with
+the other ViLLE exercises. If you are not taking the OOP course, then follow the Git instructions and set up the environment.
 
 #### Sign up to Ville
 
