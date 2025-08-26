@@ -8,10 +8,14 @@ For System SW course works you need to have
 
 ## The environment setup
 
+Wait until you go through the environment setup in object oriented programming course, the same setup is used on this course. 
+
+In case you are not taking that course or you missed the instructions there, then follow the steps below.
+
 ### Step 1: Install VM
 
-Download VM image from (link valid until 28.1.) https://filesender.funet.fi/?s=download&token=412b3f3e-f1d0-48c3-aefc-bab44132b185  alternatively from emblab ftp ftp://172.27.0.240 navigate to python-oo. Yes, this is the same VM as in OOP.
-Import VM to VirtualBox.
+Download VM image (you get the download link from SystemSW courses teacher).
+Import VM to VirtualBox (install VirtualBox before that).
 Modify configuration:
 - The default "NAT" network is recommended.
 - Check the amount of CPU cores and memory allocated for the VM. 2 cores + 4GB RAM should do, but double that amount is better.
