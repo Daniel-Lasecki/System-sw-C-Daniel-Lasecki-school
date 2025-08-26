@@ -93,7 +93,7 @@ graph TB
 ```
 
 
-## Lab assignment 1
+## Lab assignment 1 (Object oriented programming course, not required to (re)do on System SW course)
 
 Study the videos below and answer to questions into file `/home/student/object-oriented-programming-with-python/1-git/git-study.md` in your VM
 In this case it makes sense to create the file and write the answers using TUAS gitlab web interface to your personal repository. 
@@ -121,7 +121,7 @@ GitLab (like GitHub) is a <b>DevOps lifecycle tool</b>. It adds software product
 - <b>Issues</b> (tickets) you can use to plan development and report problems. Issues are bound to workflow; issue triggers development (commits, testing), reviews, approval process, and build automation & deployment.
 - <b>CI pipeline</b> automates build, security scan, testing, deployment etc operations. It is possible to define GitLab Runner server that spins off a container that handles the detail work. For example, when committing a tag to a release could trigger CI pipeline that builds the code and deploys it into target.
 
-## Lab assignment 2
+## Lab assignment 2 (Object oriented programming course, not required to (re)do on System SW course)
 
 Study the videos below and append your answers into file `/home/student/object-oriented-programming-with-python/1-git/git-study.md`  
 
