@@ -8,13 +8,14 @@ For System SW course works you need to have
 
 ## The environment setup
 
-Wait until you go through the environment setup in object oriented programming course, the same setup is used on this course. 
+Wait until you go through the environment setup in object oriented programming (OOP) course, the same setup is used on this course. 
 
 In case you are not taking that course or you missed the instructions there, then follow the steps below.
 
 ### Step 1: Install VM
 
-Download VM image (you get the download link from SystemSW courses teacher).
+Download VM image (you get the image in OOP course).
+- If you are not taking that course, download the image here (link is valid until the end of September): https://filesender.funet.fi/?s=download&token=a833d7b5-b193-4fe6-8987-b92ea19dfa9f
 Import VM to VirtualBox (install VirtualBox before that).
 Modify configuration:
 - The default "NAT" network is recommended.
@@ -25,15 +26,15 @@ Check that you can start the VM, log in and have Ubuntu desktop running with int
 ### Step 2: Fork lab repository
 
 Log into TUAS gilab https://git.dc.turkuamk.fi/ and in main menu, switch to Groups / `TUAS SystemSW`. (If `TUAS SystemSW` is not shown, ask instructor to add you to that group). In that group there is repository `Systemsw Lab Exercises`. Create a private <b>fork</b> to your personal namespace. A fork is a copy of a project. Forking a repository allows you to make changes without affecting the original project. This forked project works as your return repository.  
-- add user `jarno.tuominen` to the project with "Developer" role.
-- add tag 'SystemSW-2024Fall' to your repository: In gitlab Settings->General, "Topics"
+- add user `sanna määttä` to the project with "Developer" role.
+- add tag 'SystemSW-2025Fall' to your repository: In gitlab Settings->General, "Topics"
 
 ### Step 3: Customize VM
 
 ** Note: If you already have a working git account (in dc.turkuamk.fi), you don't have to do this again **
 
 The installed VM is naturally the same for all students, but will want to use your own identity to sync with TUAS gitlab repository. 
-- Configure git identity
+- Configure git identity (obviously use your name and e-mail address)
 ```bash
    student@student-VirtualBox:~$ git config --global user.name "Mona Lisa"
    student@student-VirtualBox:~$ git config --global user.email "YOUR_EMAIL@edu.turkuamk.fi"
