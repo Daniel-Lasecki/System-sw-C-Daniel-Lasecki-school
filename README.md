@@ -10,6 +10,10 @@ The course extends over one semester with work distributed over 14 weeks.
 | 3-10 | For the basic C concepts we have a set of lectures and related exercises in Ville environment. In addition to Ville exercises, there is a set of exercises to be executed in VSCode enviroment. Each exercise has a prenamed folder in this repo, where you should submit your work using development cycle <br> 1. edit and debug in vscode <br> 2. commit to local repo<br>3. push to your gitlab repo
 | 11-14 | To be defined |
 
+## Realized schedule on lectures
+2.9. Intro_Fall2025 and Lecture_1_Basics_of_C_Part1
+9.9. We'll start from the beginning of Lecture_2_Basics_of_C_Part2
+
 ## Course work methods
 
 Human learning is most effective when the student needs to refresh the topic over regular intervals. This is why we want to distribute the workload over every week in the semester.
