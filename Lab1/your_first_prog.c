@@ -36,12 +36,17 @@ int main ()
   /**** Your code starts below this line *** */
 
 
+  sum = a + b + c;
+
+  average = sum/3.0;
+
   /**** Your code ends here ****/
 
   printf ("Sum is %d\n", sum);
   printf ("Average is %f, ", average);
-  if (over10) {
+  if (average > 50) {
       printf ("which is over 50.\n");
+      over10 = true;
   } else {
       printf ("which is equal or less than 50.\n");
   }
