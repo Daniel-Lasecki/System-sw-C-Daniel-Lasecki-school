@@ -1,0 +1,27 @@
+1. Find a simple function form the internet and examine how it works and explain what it does. 
+After that, change its operation in a way of your choice (e.g. change some calculation or add a calculation etc. and print). 
+
+2. Divide some exercises from Sets 1-2 into their own function and call them separately from the main function. 
+Here you don't need parameters or return values ​​yet. One subroutine should be the one that prints random numbers. 
+Note: one function does one thing, not many different things! 
+
+3. Find a simple function online that uses both parameters and a return value. 
+Find out how the function and the parameters and the return value work. 
+Change the function so that you add one parameter and perform some operation on it in the function (e.g. calculation and print). 
+Also change the return value in some way (e.g. perform an additional operation on the original parameters, e.g. some calculation). 
+Print the return value at the point where the function is called (e.g. in main function). 
+
+4. Change the function that prints random numbers so that instead of printing a number, it returns a random number. 
+Print the return value at the point where the function is called. 
+
+5. Change the function that prints random numbers so that you can give it a parameter of the desired range of 
+numbers from which the random number is returned. Print the return value at the point where the function is called.
+
+6. Give three numbers to the function as parameters and calculate the average of the numbers in the function. 
+Return the result as a return value and print the return value. 
+First use three hard-coded variables.
+Then ask the user for three numbers.
+Then use the three numbers you get from the function that returns random numbers.
+If this was too easy, give the numbers in an array as parameters to the function.
+If you already know pointers, give the array as a reference to the function (find out the concepts call by value and call by reference).
+
