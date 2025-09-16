@@ -1,0 +1,15 @@
+1. Fill a table/list with randomly generated numbers and print the table. 
+
+2. Fill a table/list with user-entered numbers and print the table. 
+
+3. Find out, if the user-entered number is a prime number and if the randomly generated number is a prime number. 
+
+4. Fill and print a 2d array (e.g. array of arrays).
+
+5. Do linked list using pointers.
+
+6. Do rock-paper-scissors game. Then do the extended version rock-paper-scissors-lizzard-spock (google for instructions).
+
+7. Print out Fibonacci, Tribonacci and Tetranacci numbers. (Not hard coded, program logic shall figure out the next number.)
+
+8. Print out Pascal triangle (not hard coded...).
