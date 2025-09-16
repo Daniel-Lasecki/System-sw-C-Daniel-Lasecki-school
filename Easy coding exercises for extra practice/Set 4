@@ -6,10 +6,14 @@
 
 4. Fill and print a 2d array (e.g. array of arrays).
 
-5. Do linked list using pointers.
+5. Copy a pointer from the internet and learn to print out pointers, memory locations, values in that memory locations.
 
-6. Do rock-paper-scissors game. Then do the extended version rock-paper-scissors-lizzard-spock (google for instructions).
+6. Create pointers of different types (int, float, char, etc.) and print them out.
 
-7. Print out Fibonacci, Tribonacci and Tetranacci numbers. (Not hard coded, program logic shall figure out the next number.)
+7. Do linked list using pointers.
 
-8. Print out Pascal triangle (not hard coded...).
+8. Do rock-paper-scissors game. Then do the extended version rock-paper-scissors-lizzard-spock (google for instructions).
+
+9. Print out Fibonacci, Tribonacci and Tetranacci numbers. (Not hard coded, program logic shall figure out the next number.)
+
+10. Print out Pascal triangle (not hard coded...).
