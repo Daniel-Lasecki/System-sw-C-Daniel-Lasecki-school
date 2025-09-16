@@ -5,8 +5,8 @@ For tasks 1–5, do each of the following:
 •	You may use functions if you wish (especially if the tasks are otherwise easy).
 
 1. Check if a number is positive, negative, or zero. Format the output like this:
-        For example, with number 7: The number 7 is positive.
-        For example, with number -3: The number -3 is negative.
+        For example, with number 7: Number 7 is positive.
+        For example, with number -3: Number -3 is negative.
 2. Check if a number is even or odd (remember the % operator).
 3. Check if a number is divisible by 3.
 4. Check if a number is divisible by 5.
