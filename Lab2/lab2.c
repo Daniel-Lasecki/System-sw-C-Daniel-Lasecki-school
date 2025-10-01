@@ -11,11 +11,11 @@ typedef struct
 }Book_t;
 
 // book storage
-#define MAX_BOOKS 20
+#define MAX_BOOKS 20 
 Book_t library[MAX_BOOKS];
-int book_count = 0;
+int book_count = 0; // current number of books in set library if empty
 
-
+// blah blah function prototypes
 void addBook();
 void deleteBook();
 void listAvailableBooks();
@@ -28,13 +28,16 @@ void saveLibraryToFile(const char *filename);
 
 int main(int argc, char *argv[]){
     
-    const char *filename = argv[1]; // get filename from command line // REMEMBER TO ADD FILE NAME WHEN CALLING ./lab2 in TERMINAL (eg. ./lab2 library.csv)
+    const char *filename = argv[1]; // get filename from command line // REMEMBER TO ADD FILE NAME WHEN CALLING ./lab2 in TERMINAL 
+                                    //(eg. ./lab2 library.csv) argv[0] is program name and argv[1] is first argument -- c programming language second edition page 114-115
     loadLibraryFromFile(filename);
 
-    char command[20];
+    char command[20]; // command input buffer
     printf("Welcome to the library program!\n");
     printf("Library file: %s\n", filename);
 
+
+    // self explanatory command loop
     while(1){
         printf("\nEnter command (add, delete, available, all, id, loan, return, exit): ");
         scanf("%s", command);
@@ -74,6 +77,9 @@ int main(int argc, char *argv[]){
 }
 
 // CSV file format: id,title,isloaned
+
+// https://www.programiz.com/c-programming/c-file-input-output note: use "r" for read and "w" for write
+
 void loadLibraryFromFile(const char *filename) {
     FILE *fp = fopen(filename, "r");
     char line[128];
@@ -83,7 +89,7 @@ void loadLibraryFromFile(const char *filename) {
         Book_t books;
         char loaned[10];
         
-        if (sscanf(line, "%hd,%49[^,],%9s", &books.book_id, books.title, loaned) == 3) {
+        if (sscanf(line, "%hd,%49[^,],%9s", &books.book_id, books.title, loaned) == 3) { // parses line by line and stores in struct array
             books.isloaned = (strcmp(loaned, "Loaned") == 0) ? 1 : 0;
             library[book_count++] = books;
         }
@@ -99,6 +105,7 @@ void saveLibraryToFile(const char *filename) {
     }
     fclose(fp);
 }
+
 
 // commands for program
 
