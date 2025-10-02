@@ -11,8 +11,11 @@ The course extends over one semester with work distributed over 14 weeks.
 | 11-14 | To be defined |
 
 ## Realized schedule on lectures
-- 2.9. Intro_Fall2025 and Lecture_1_Basics_of_C_Part1
-- 9.9. We'll start from the beginning of Lecture_2_Basics_of_C_Part2
+- 2.9. Intro_Fall2025 and Lecture_1_Basics_of_C_Part1 finished
+- 9.9. No lecture, teacher ill   
+- 17.9. Lecture_2_Basics_of_C_Part2 finished
+- 26.9. Lecture_3_and_4_Basics_of_C_part_3 finished
+
 
 ## Course work methods
 

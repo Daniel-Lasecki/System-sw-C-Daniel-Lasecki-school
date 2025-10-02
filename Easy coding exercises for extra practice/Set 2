@@ -1,0 +1,19 @@
+1. Copy an array of numbers from the internet and code that e.g. prints out the numbers. 
+
+2. Edit the code of #1, e.g. edit the number range, print every other element, print every third element, 
+print numbers from largest to smallest and from smallest to largest 
+
+3. Do some of the tasks of #1 and #2 using both for and while loops, also try do-while.
+
+4. Calculate the sum and average of integers less than a hundred or a thousand. 
+Start by calculating the sum and average of integers less than ten so it is easy to verify you code works correctly.
+
+5. Calculate the sum and average of integers less than a hundred (or thousand) that are divisible by three and five. 
+
+6. Print out a half pyramid, e.g. with letters (or numbers), start with the same character and then try the example below: 
+
+A 
+B B
+C C C 
+D D D D
+E E E E E
