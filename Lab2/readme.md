@@ -16,7 +16,7 @@ First, let's take Cmake into use.
 
 `sudo apt install cmake`
 
-`apt install ninja-build`
+`sudo apt install ninja-build`
 
 2. Next, in VSCode, install Cmake Tools by going to extensions on the left side (**Ctrl-Shift-X**)
 
