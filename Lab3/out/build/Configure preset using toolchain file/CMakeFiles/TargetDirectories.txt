@@ -1,0 +1,3 @@
+/home/student/Desktop/systemsw-lab-exercises-2025-przemyslaw-lasecki/Lab3/out/build/Configure preset using toolchain file/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/systemsw-lab-exercises-2025-przemyslaw-lasecki/Lab3/out/build/Configure preset using toolchain file/CMakeFiles/edit_cache.dir
+/home/student/Desktop/systemsw-lab-exercises-2025-przemyslaw-lasecki/Lab3/out/build/Configure preset using toolchain file/CMakeFiles/fir_filter.dir
