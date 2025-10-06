@@ -3,7 +3,7 @@ import random
 from datetime import datetime, timedelta
 
 
-pressure_samples_random = [round(random.uniform(850, 1050), 2) for _ in range(3000)]
+pressure_samples_random = [round(random.uniform(650, 1050), 5) for _ in range(500)]
 
 
 sample_interval = 0.01  
