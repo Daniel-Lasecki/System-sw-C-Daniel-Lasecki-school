@@ -15,6 +15,7 @@ The course extends over one semester with work distributed over 14 weeks.
 - 9.9. No lecture, teacher ill   
 - 17.9. Lecture_2_Basics_of_C_Part2 finished
 - 26.9. Lecture_3_and_4_Basics_of_C_part_3 finished
+- 3.10. Lecture_5_Basics_of_C_part_4 finished
 
 
 ## Course work methods
