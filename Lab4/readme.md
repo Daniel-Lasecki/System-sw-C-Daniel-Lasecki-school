@@ -43,7 +43,7 @@ https://www.codeproject.com/Articles/1275479/State-Machine-Design-in-C)
 **Implementation Instructions:**
 
 1. Create a new empty project for your C compiler.
-2. Create two source code files: `main.c` and `traffic_light.c`.
+2. Create two source code files: `main.c` and `traffic_light.c`. Create one header file: `traffic_light.h`, remember include guards!
 3. **main.c**:
     - Contains the main function (`main`), which calls the traffic light controller functions.
     - Define constants for the light durations.
