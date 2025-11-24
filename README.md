@@ -15,6 +15,13 @@ The course extends over one semester with work distributed over 14 weeks.
 - 9.9. No lecture, teacher ill   
 - 17.9. Lecture_2_Basics_of_C_Part2 finished
 - 26.9. Lecture_3_and_4_Basics_of_C_part_3 finished
+- 3.10. Lecture_5_Basics_of_C_part_4 finished
+- 8.10. Lecture_6_Basics_of_C_part_5 loops
+- 21.10. We'll start Lecture_6_Basics_of_C_part_5 from functions to finished
+- 29.10. Lecture_7_Basics_of_C_part_6 Functions returning pointers and C preprocessor finished
+- 5.11. Lecture_8_Memory_Model_and_Management.pdf finished
+- 11.11. Final lecture, recap and some example exam questions
+
 
 
 ## Course work methods
